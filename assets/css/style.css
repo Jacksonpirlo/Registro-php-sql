@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111 !important;
+}
+
+html {
+    font-size: 13px;
+}
+
+/* Enlaces */
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin-top: 10em;
+}
+
+.links .logs {
+    margin: 10px;
+    background-color: rgb(49, 255, 42);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 25px 5px rgba(49, 255, 42, 0.568);
+    transition: all 1s ease;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.links .logs:hover {
+    box-shadow: 5px 1px 25px 5px rgb(49, 255, 42);
+    transition: all 1s ease;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    color: #fff;
+}
+
+.title p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.title h1 {
+    position: relative;
+    font-size: 50px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    right: 14px;
+}
+
+span {
+    position: absolute;
+    margin: 0px;
+    font-size: 20px !important;
+    top: 28px;
+}
+
+/* Tarjeta */
+
+/* Ahun en proceso... */
+
+/* .tarjeta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 172, 172);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.tarjeta-empresa {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tarjeta-empresa .nombre-empresa {
+    margin: 0px;
+}
+
+.tarjeta-empresa .tarjeta-id {
+    margin: 0px;
+}
+.tarjeta-items {
+    display: flex;
+}
+
+.tarjeta-img {
+    font-size: 50px;
+}
+
+.tarjeta-img i {
+    display: inline-flex;
+}
+
+.tarjeta-datos {
+    font-size: 9px;
+}
+
+.tarjeta-datos span {
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjeta-datos p {
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+}
+
+.tarjeta-items .tarjeta-child {
+    margin: 10px;
+    padding: 5px;
+}
+ */
